@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  titulo: MyString
+  periodo: 2017-09-28 16:16:07
+  sala: MyString
+  classificacao: MyString
+
+two:
+  titulo: MyString
+  periodo: 2017-09-28 16:16:07
+  sala: MyString
+  classificacao: MyString

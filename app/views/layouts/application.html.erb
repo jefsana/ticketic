@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ticketic2</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+
+  	
+
+  	<table width="100%" style="border:0px solid black;" bgcolor="FF6600" border="0">
+	  	<tr>
+	  		<td width="1px" align="right">
+	  			<%= image_tag("ic_logo_branco.png") %>
+	  		</td>
+
+	  		<td align="center">
+	  			<h1><font color="white">SISTEMA DE BILHETERIA</font></h1>
+	  		</td>
+
+	  		<td width="180px" align="right" valign="top">
+	  			<font color="white">
+	  				Jefferson Santos Andrade<br>
+	  				Inovacao
+	  			</font>
+	  		</td>
+	  	</tr>
+  	</table>
+  	<br><br>
+
+    <%= yield %>
+  </body>
+</html>
